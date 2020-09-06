@@ -7,7 +7,7 @@
 ![navBar](https://i.hizliresim.com/RKsXx1.png)
 # Menu Komponent
 ![menu](https://i.hizliresim.com/wDaGPA.png)
-# Setup Komponent
+# Welcome Komponent
 ![welcome](https://i.hizliresim.com/CkbMj1.png)
 # Announcements Komponent
 ![announcements](https://i.hizliresim.com/1GhJ7C.png)
