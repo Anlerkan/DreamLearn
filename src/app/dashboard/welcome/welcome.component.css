@@ -1,0 +1,38 @@
+.card-title {
+  text-align: left;
+  font: normal normal bold 26px/42px Segoe UI;
+  letter-spacing: 0.24px;
+  color: #9145D3;
+  opacity: 1;
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 975px;
+  height: 180px;
+  background-color: #242A35;
+}
+
+#imgCol {
+  margin-bottom: 100px;
+  width: 237px;
+  height: 301px;
+  opacity: 1;
+}
+
+.card-body {
+
+  background: #F6F8FC 0% 0% no-repeat padding-box;
+  border-radius: 11px;
+  opacity: 1;
+  padding-top: 30px
+}
+
+.card-text {
+  text-align: left;
+  font: normal normal normal 17px/24px Segoe UI;
+  letter-spacing: 0.32px;
+  color: #000000D9;
+  opacity: 1;
+}

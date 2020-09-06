@@ -1,0 +1,64 @@
+<div class="setupContainer" id="setupContainer">
+  <div class="row align-items-center" id="mainRow">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 align-self-center" id="mainCol">
+      <div class="logo">
+        <img class="logoImg" src="https://i.hizliresim.com/ReFHMo.png" alt=""></div>
+      <h2 class="educationInfo">Enter Education Period Information</h2>
+      <form [formGroup]="setupForm" (ngSubmit)="addEducationInfo()">
+        <div class="formGroup">
+          <select class="formControl" formControlName="educationLevelId" required id="educationLevelId"
+            name="educationLevelId">
+
+            <option *ngFor="let educationLevel of educationLevels" [value]="educationLevel.id">
+              {{educationLevel.name}}
+            </option>
+          </select>
+        </div>
+        <div class="formGroup">
+          <select class="formControl" formControlName="academicYearId" required id="academicYearId"
+            name="academicYearId">
+            <option *ngFor="let academicYear of academicYears" [value]="academicYear.id">
+              {{academicYear.name}}
+            </option>
+          </select>
+        </div>
+
+        <div class="formGroup">
+          <select class="formControl" formControlName="educationPeriodId" required id="educationPeriodId"
+            name="educationPeriodId">
+            <option *ngFor="let educationPeriod of educationPeriods" [value]="educationPeriod.id">
+              {{educationPeriod.period}}
+            </option>
+          </select>
+        </div>
+        <div class="formGroup">
+          <select class="formControl" formControlName="startEndDateId" required id="startEndDateId"
+            name="startEndDateId">
+            <option *ngFor="let startEndDate of startEndDates" [value]="startEndDate.id">
+              {{startEndDate.startDate}}-{{startEndDate.endDate}}
+            </option>
+          </select>
+        </div>
+        <div class="formGroup">
+          <select class="formControl" formControlName="totalCourseWeekId" required id="totalCourseWeekId"
+            name="totalCourseWeekId">
+            <option *ngFor="let totalCourseWeek of totalCourseWeeks" [value]="totalCourseWeek.id">
+              {{totalCourseWeek.weekValue}}
+            </option>
+          </select>
+          <div class="row">
+            <div class="col-md-6">
+              <button type="submit" class="btnSetup" [disabled]="setupForm.invalid">
+                <a class="setupText" id="start" routerLink="/dashboard">Start the school year</a>
+              </button>
+            </div>
+            <div class="col-md-6"><button type="button" class="btnSetup" id="information"> <span
+                  class="setupText">Information</span></button></div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>

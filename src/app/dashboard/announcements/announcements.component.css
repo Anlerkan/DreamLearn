@@ -1,0 +1,104 @@
+.formControl {
+  border: 0px;
+  text-align: left;
+  font: normal normal 600 14px/7px Segoe UI;
+  letter-spacing: 0.28px;
+  color: #8598AD;
+  opacity: 0.6;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+#announcementPeriodId {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.20000000298023224px solid #707070;
+  border-radius: 11px;
+  opacity: 1;
+}
+
+.announcementsTitle {
+  text-align: left;
+  font: normal normal bold 22px/30px Segoe UI;
+  letter-spacing: 1.1px;
+  color: #FEFEFE;
+}
+
+
+
+.formGroup {
+
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.20000000298023224px solid #707070;
+  border-radius: 11px;
+  opacity: 1;
+  margin-right: 350px;
+  margin-left: 380px;
+}
+
+#nav-link-left {
+  text-align: left;
+  font: normal normal 600 17px/22px Segoe UI;
+  letter-spacing: 0.85px;
+  color: #8E40D2;
+  opacity: 0.6;
+}
+
+#nav-link-right {
+  text-align: right;
+  font: normal normal 600 17px/22px Segoe UI;
+  letter-spacing: 0.85px;
+  color: #8E40D2;
+  opacity: 0.6;
+}
+
+#cardsRow {
+  background: #FEFEFE 0% 0% no-repeat padding-box;
+  border: 0.20000000298023224px solid #707070;
+  border-radius: 11px;
+  opacity: 1;
+  width: 971px;
+}
+
+
+.card-title {
+  text-align: left;
+  font: normal normal bold 17px/88px Segoe UI;
+  letter-spacing: 0.85px;
+  color: #4F4F6F;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+
+
+.card-text {
+  text-align: left;
+  font: normal normal bold 15px/20px Segoe UI;
+  letter-spacing: 0.75px;
+  color: #4F4F6F;
+}
+
+.card {
+  margin: 0px;
+
+}
+
+.main {
+  background-color: #242A35;
+}
+
+.card-title {
+  text-align: left;
+  font: normal normal bold 15px/20px Segoe UI;
+  letter-spacing: 0.75px;
+  color: #4F4F6F;
+}
+
+#cardsContainer {
+  background: #FEFEFE 0% 0% no-repeat padding-box;
+  border: 0.20000000298023224px solid #707070;
+  border-radius: 11px;
+  opacity: 1;
+  width: 1375px;
+}

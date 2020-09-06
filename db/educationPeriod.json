@@ -1,0 +1,114 @@
+{
+    "educationInfos":[
+        {
+        "educationLevels": [
+    {
+      "id": 1,
+      "name": "High School- Prep"
+    },
+    {
+      "id": 2,
+      "name": "High School - 1"
+    },
+    {
+      "id": 3,
+      "name": "High School - 2"
+    },
+    {
+      "id": 4,
+      "name": "High School - 3"
+    },
+    {
+      "id": 5,
+      "name": "High School - 4"
+    }
+  ],
+  "academicYears": [
+    {
+      "id": 1,
+      "name": "2018-2019"
+    },
+    {
+      "id": 2,
+      "name": "2019-2020"
+    },
+    {
+      "id": 3,
+      "name": "2020-2021"
+    },
+    {
+      "id": 4,
+      "name": "2021-2022"
+    }
+  ],
+"educationPeriods":[
+{
+"id":1,
+"period":1
+},
+{
+"id":2,
+"period":2
+},
+{
+"id":3,
+"period":3
+},
+{
+"id":4,
+"period":4
+},
+{
+"id":5,
+"period":5
+},
+{
+"id":6,
+"period":6
+},
+{
+"id":7,
+"period":7
+},
+{
+"id":8,
+"period":8
+}
+],
+"startEndDates":[
+{
+	"id":1,
+	"startDate":2019,
+    "endDate":2020
+}
+],
+"totalCourseWeeks":[
+{
+	"id":1,
+	"weekValue":1
+},
+{
+	"id":2,
+	"weekValue":4
+},
+{
+	"id":3,
+	"weekValue":8
+},
+{
+	"id":4,
+	"weekValue":12
+},
+{
+	"id":5,
+	"weekValue":16
+},
+{
+	"id":6,
+	"weekValue":20
+}
+    ]
+        }
+    ]
+  
+}

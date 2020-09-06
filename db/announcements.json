@@ -1,0 +1,56 @@
+{
+
+  "announcements": [ {
+    "id": 1,
+      "title": "Exponential numbers work-4st",
+      "classLevel":4,
+      "lesson":"Biology",
+      "startEndDate":"20.03.14 - 20.03.19"
+  }
+
+  ,
+    {
+    "id": 2,
+      "title": "Exponential numbers work-4st",
+      "classLevel":4,
+      "lesson":"Math",
+      "startEndDate":"20.03.14 - 20.03.19"
+  }
+
+  ,
+    {
+    "id": 3,
+      "title": "Exponential numbers work-4st",
+      "classLevel":4,
+      "lesson":"Biology",
+      "startEndDate":"20.03.14 - 20.03.19"
+  }
+
+  ,
+    {
+    "id": 4,
+      "title": "Exponential numbers work-4st",
+      "classLevel":4,
+      "lesson":"Math",
+      "startEndDate":"20.03.14 - 20.03.19"
+  }
+
+  ,
+    {
+    "id": 5,
+      "title": "Exponential numbers work-4st",
+      "classLevel":4,
+      "lesson":"Biology",
+      "startEndDate":"20.03.14 - 20.03.19"
+  }
+
+  ,
+    {
+    "id": 6,
+      "title": "Exponential numbers work-4st",
+      "classLevel":4,
+      "lesson":"Math",
+      "startEndDate":"20.03.14 - 20.03.19"
+  }
+  ]
+}

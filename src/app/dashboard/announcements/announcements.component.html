@@ -1,0 +1,40 @@
+<div class="container" id="main">
+  <div class="row">
+    <div class="col-md-7">
+      <h3 class="announcementsTitle">General Announcements</h3>
+    </div>
+    <div class="col-md-5">
+      <div class="formGroup">
+        <select class="formControl" formControlName="announcementPeriodId" required id="announcementPeriodId"
+          name="announcementPeriodId">
+          <option>
+            This Week
+          </option>
+          <option>
+            This Month
+          </option>
+          <option>
+            This Year
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="cardsRow">
+    <div *ngFor="let announcement of announcements" class="card">
+      <div class="card-group">
+        <div class="card-body">
+          <p class="card-title">{{announcement.title}}<br><br></p>
+          <p class="card-text">
+            Class Level: {{announcement.classLevel}}<br>
+            Lesson: {{announcement.lesson}}<br>
+            Start / end date: {{announcement.startEndDate}}</p>
+          <nav class="nav nav-justified">
+            <a class="nav-link" id="nav-link-left" href="#">View</a>
+            <a class="nav-link" id="nav-link-right" href="#">Remove</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

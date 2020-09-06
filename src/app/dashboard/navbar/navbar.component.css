@@ -1,0 +1,143 @@
+.searchContainerMain {
+
+  background: #F5F6FA 0% 0% no-repeat padding-box;
+  border-radius: 38px;
+  opacity: 1;
+  border: #538AC5;
+  border-width: 0;
+  margin-left: 75px;
+}
+
+#mainRow {
+  background-color: white;
+
+}
+
+.searchIconId {
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.col-md-2 {
+  float: right;
+}
+
+
+.searchContainer {
+  border-width: 0;
+  border: 0;
+
+}
+
+.searchBox {
+  background: #F5F6FA 0% 0% no-repeat padding-box;
+  border: 0;
+  border-radius: 38px;
+  opacity: 1;
+  border: #538AC5;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+
+}
+
+.logo {
+  padding-left: 35px;
+
+}
+
+.navbar-right {
+
+  float: right !important;
+
+}
+
+#navbarDropdown {
+  text-align: right;
+  font: normal normal 600 20px/70px Segoe UI;
+  letter-spacing: 1px;
+  color: #4F4F6F;
+  opacity: 0.9;
+  margin-right: 20px;
+  float: right;
+}
+
+#lampIcon {
+  margin-right: 50px;
+}
+
+#profileIcon {
+  margin-right: 50px;
+}
+
+.img {
+  margin-right: 50px;
+}
+
+#notificationIcon {
+  top: 50%;
+}
+
+
+
+#searchIconId {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.navIcons {
+  margin-top: 20px;
+  margin-left: 10px;
+  float: right;
+}
+
+.searchContainer {
+
+  display: grid;
+  grid-template-columns: 1.5rem 4fr 1fr;
+  width: 300px;
+  height: 46px;
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.searchContainer:focus-within i {
+  display: none;
+}
+
+.searchContainer:focus-within .searchBox {
+  grid-column: 1/4;
+}
+
+.searchContainer:focus-within .searchBox::placeholder {
+  color: transparent;
+}
+
+.searchIcon {
+
+  padding: 0.5rem;
+  grid-row: 1;
+  grid-column: 1/2;
+  z-index: 2
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem;
+  grid-column: 2/4;
+  grid-row: 1;
+  outline: none;
+  margin-left: 20px;
+}
+
+
+
+.searchButton {
+  background: #538AC5;
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+  grid-column: 4/5;
+  grid-row: 1;
+}

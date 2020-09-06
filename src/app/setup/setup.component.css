@@ -1,0 +1,89 @@
+.btnSetup {
+  background: transparent linear-gradient(90deg, #9145D3 0%, #814CF9 100%) 0% 0% no-repeat padding-box;
+  border-radius: 11px;
+  opacity: 1;
+  margin-top: 15px;
+  width: 245px;
+  height: 53px;
+}
+
+#information {
+  margin-right: 100px;
+  width: 255px;
+}
+
+.fill {
+  min-height: 100%;
+  height: 100%;
+}
+
+.setupText {
+  text-align: center;
+  font: normal normal 600 20px/43px Segoe UI;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.setupContainer {
+  background-image: url("https://i.hizliresim.com/6z8fI3.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+
+  backdrop-filter: blur(21px);
+  -webkit-backdrop-filter: blur(21px);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.logo {
+  opacity: 1;
+  vertical-align: middle;
+  margin-top: 97px;
+  padding-left: 50px;
+}
+
+#mainRow {
+  background-image: url("https://i.hizliresim.com/6z8fI3.png");
+}
+
+.formControl {
+  text-align: center;
+  font: normal normal 600 17px/14px Segoe UI;
+  letter-spacing: 0.34px;
+  color: #8598AD;
+  opacity: 0.6;
+}
+
+.formGroup {
+  margin: auto;
+  position: relative;
+}
+
+.formControl {
+  width: 644px;
+  height: 50px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.20000000298023224px solid #707070;
+  border-radius: 11px;
+  opacity: 1;
+  margin-top: 29px;
+}
+
+.educationInfo {
+  width: 641px;
+  height: 47px;
+  text-align: left;
+  font: normal normal 900 35px/88px Segoe UI;
+  letter-spacing: 0.53px;
+  color: #4F4F6F;
+  opacity: 0.7;
+}

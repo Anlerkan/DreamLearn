@@ -1,0 +1,143 @@
+body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+
+
+/*
+   * Sidebar
+   */
+
+.sidebar {
+  height: 1080px;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: max-content;
+
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: grey;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: white;
+}
+
+.sidebar .nav-link.active {
+  color: black;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+   * Navbar
+   */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: white
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: white;
+
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+
+}
+
+
+
+#sideBarMenu {
+  padding-top: 0px;
+
+}
+
+#sideBarRow {
+  background-color: white;
+
+}
+
+#sideBarContainer {
+
+  background-color: white;
+  margin: 0px
+}
+
+#sideBar {
+  width: 300px;
+  margin-top: 50px;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.nav-link {
+  text-align: left;
+  font: Segoe UI;
+  letter-spacing: 1px;
+  color: #4F4F6F;
+  opacity: 0.6;
+  margin: 0px;
+}
+
+.nav-item {
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
